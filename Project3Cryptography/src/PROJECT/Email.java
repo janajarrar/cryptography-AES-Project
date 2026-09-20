@@ -14,8 +14,8 @@ public class Email {
 
     public static void sendWithAttachment(String to, String subject, String content, String filePath) {
 
-        final String from = "jarrarjana85@gmail.com";
-        final String password = "rrmp xjfa xrfs xslc";
+        final String from = "";
+        final String password = "";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
